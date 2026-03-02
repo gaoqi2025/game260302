@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小猫跑酷游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="score" id="score">0</div>
+        <div class="start-screen" id="startScreen">
+            <h1>小猫跑酷</h1>
+            <button id="startButton">开始游戏</button>
+        </div>
+        <div class="game-over" id="gameOver">
+            <h1>游戏结束</h1>
+            <p>得分: <span id="finalScore">0</span></p>
+            <button id="restartButton">重新开始</button>
+        </div>
+        <canvas id="gameCanvas" width="800" height="300"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
