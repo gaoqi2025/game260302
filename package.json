@@ -1,0 +1,20 @@
+{
+  "name": "cat-runner-game",
+  "version": "1.0.0",
+  "description": "科幻风格的小猫跑酷游戏",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "build": "echo 'Building static files...'",
+    "start": "python -m http.server 8000"
+  },
+  "keywords": [
+    "game",
+    "cat",
+    "runner",
+    "canvas",
+    "html5"
+  ],
+  "author": "gaoqi2025",
+  "license": "MIT"
+}
